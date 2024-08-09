@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>customer.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+.s4 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+customer.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">com</span><span class="s2">.</span><span class="s1">sgtest</span><span class="s2">.</span><span class="s1">Assignment</span><span class="s2">;</span>
+<span class="s0">class </span><span class="s1">Customer1</span>
+<span class="s2">{</span>
+    <span class="s1">String Cname</span><span class="s2">;</span>
+    <span class="s1">String Address</span><span class="s2">;</span>
+    <span class="s1">String PhoneNum</span><span class="s2">;</span>
+    <span class="s1">String Email_Id</span><span class="s2">;</span>
+<span class="s2">}</span>
+<span class="s0">class </span><span class="s1">Project</span>
+<span class="s2">{</span>
+    <span class="s1">String pname</span><span class="s2">;</span>
+    <span class="s1">String pcity</span><span class="s2">;</span>
+    <span class="s1">String Req_Tech</span><span class="s2">;</span>
+    <span class="s0">int </span><span class="s1">timeline</span><span class="s2">;</span>
+<span class="s2">}</span>
+<span class="s0">class </span><span class="s1">Task</span>
+<span class="s2">{</span>
+    <span class="s0">int </span><span class="s1">tId</span><span class="s2">;</span>
+    <span class="s1">String tname</span><span class="s2">;</span>
+    <span class="s1">String Status</span><span class="s2">;</span>
+    <span class="s1">String Priority</span><span class="s2">;</span>
+<span class="s2">}</span>
+<span class="s0">public class </span><span class="s1">customer </span><span class="s2">{</span>
+    <span class="s0">public static void </span><span class="s1">main</span><span class="s2">(</span><span class="s1">String</span><span class="s2">[] </span><span class="s1">args</span><span class="s2">) {</span>
+
+        <span class="s1">Customer1 cs1 </span><span class="s2">= </span><span class="s0">new </span><span class="s1">Customer1</span><span class="s2">();</span>
+        <span class="s1">cs1</span><span class="s2">.</span><span class="s1">Cname</span><span class="s2">=</span><span class="s3">&quot;Chandru&quot;</span><span class="s2">;</span>
+        <span class="s1">cs1</span><span class="s2">.</span><span class="s1">Address</span><span class="s2">=</span><span class="s3">&quot;Hampinagar,Bangalore-512010&quot;</span><span class="s2">;</span>
+        <span class="s1">cs1</span><span class="s2">.</span><span class="s1">PhoneNum</span><span class="s2">=</span><span class="s3">&quot;+91 6070563780&quot;</span><span class="s2">;</span>
+        <span class="s1">cs1</span><span class="s2">.</span><span class="s1">Email_Id</span><span class="s2">=</span><span class="s3">&quot;chandu97@yahoo.com&quot;</span><span class="s2">;</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Customer Details&quot;</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Name:&quot;</span><span class="s2">+</span><span class="s1">cs1</span><span class="s2">.</span><span class="s1">Cname</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Address:&quot;</span><span class="s2">+</span><span class="s1">cs1</span><span class="s2">.</span><span class="s1">Address</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Contact Number:&quot;</span><span class="s2">+</span><span class="s1">cs1</span><span class="s2">.</span><span class="s1">PhoneNum</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Email ID&quot;</span><span class="s2">+</span><span class="s1">cs1</span><span class="s2">.</span><span class="s1">Email_Id</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;-------------------------------------------&quot;</span><span class="s2">);</span>
+
+        <span class="s1">Project p1</span><span class="s2">=</span><span class="s0">new </span><span class="s1">Project</span><span class="s2">();</span>
+        <span class="s1">p1</span><span class="s2">.</span><span class="s1">pname</span><span class="s2">=</span><span class="s3">&quot;Master Plan&quot;</span><span class="s2">;</span>
+        <span class="s1">p1</span><span class="s2">.</span><span class="s1">pcity</span><span class="s2">=</span><span class="s3">&quot;Udupi&quot;</span><span class="s2">;</span>
+        <span class="s1">p1</span><span class="s2">.</span><span class="s1">Req_Tech</span><span class="s2">=</span><span class="s3">&quot;ArcGIS,QGIS&quot;</span><span class="s2">;</span>
+        <span class="s1">p1</span><span class="s2">.</span><span class="s1">timeline</span><span class="s2">= </span><span class="s4">2</span><span class="s2">;</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Project Details&quot;</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Name:&quot;</span><span class="s2">+</span><span class="s1">p1</span><span class="s2">.</span><span class="s1">pname</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;City:&quot;</span><span class="s2">+</span><span class="s1">p1</span><span class="s2">.</span><span class="s1">pcity</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Required Technology:&quot;</span><span class="s2">+</span><span class="s1">p1</span><span class="s2">.</span><span class="s1">Req_Tech</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Timeline to Finish: &quot;</span><span class="s2">+</span><span class="s1">p1</span><span class="s2">.</span><span class="s1">timeline</span><span class="s2">+</span><span class="s3">&quot; Years&quot;</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;-------------------------------------------&quot;</span><span class="s2">);</span>
+
+        <span class="s1">Task T1 </span><span class="s2">= </span><span class="s0">new </span><span class="s1">Task</span><span class="s2">();</span>
+        <span class="s0">int </span><span class="s1">tId</span><span class="s2">;</span>
+        <span class="s1">String tname</span><span class="s2">;</span>
+        <span class="s1">String Status</span><span class="s2">;</span>
+        <span class="s1">String Priority</span><span class="s2">;</span>
+        <span class="s1">T1</span><span class="s2">.</span><span class="s1">tId</span><span class="s2">=</span><span class="s4">1234</span><span class="s2">;</span>
+        <span class="s1">T1</span><span class="s2">.</span><span class="s1">tname</span><span class="s2">=</span><span class="s3">&quot;Create Bank Account&quot;</span><span class="s2">;</span>
+        <span class="s1">T1</span><span class="s2">.</span><span class="s1">Status</span><span class="s2">=</span><span class="s3">&quot;Pending&quot;</span><span class="s2">;</span>
+        <span class="s1">T1</span><span class="s2">.</span><span class="s1">Priority</span><span class="s2">=</span><span class="s3">&quot;High&quot;</span><span class="s2">;</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Task Details&quot;</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Task ID:&quot;</span><span class="s2">+</span><span class="s1">T1</span><span class="s2">.</span><span class="s1">tId</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Task Name:&quot;</span><span class="s2">+</span><span class="s1">T1</span><span class="s2">.</span><span class="s1">tname</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Task Status:&quot;</span><span class="s2">+</span><span class="s1">T1</span><span class="s2">.</span><span class="s1">Status</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Priority is :&quot;</span><span class="s2">+</span><span class="s1">T1</span><span class="s2">.</span><span class="s1">Priority</span><span class="s2">);</span>
+    <span class="s2">}</span>
+<span class="s2">}</span>
+</pre>
+</body>
+</html>

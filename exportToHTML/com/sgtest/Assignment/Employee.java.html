@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>Employee.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+.s4 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Employee.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">com</span><span class="s2">.</span><span class="s1">sgtest</span><span class="s2">.</span><span class="s1">Assignment</span><span class="s2">;</span>
+    <span class="s0">class </span><span class="s1">EmpDetails</span>
+    <span class="s2">{</span>
+        <span class="s1">String ename</span><span class="s2">;</span>
+        <span class="s0">int </span><span class="s1">age</span><span class="s2">;</span>
+        <span class="s1">String Email_Id</span><span class="s2">;</span>
+        <span class="s1">String Address</span><span class="s2">;</span>
+    <span class="s2">}</span>
+    <span class="s0">class </span><span class="s1">Department</span>
+    <span class="s2">{</span>
+        <span class="s0">int </span><span class="s1">id</span><span class="s2">;</span>
+        <span class="s1">String deptname</span><span class="s2">;</span>
+        <span class="s0">int </span><span class="s1">salary</span><span class="s2">;</span>
+        <span class="s1">String Manager</span><span class="s2">;</span>
+
+    <span class="s2">}</span>
+    <span class="s0">class </span><span class="s1">Insurance</span>
+    <span class="s2">{</span>
+        <span class="s1">String type</span><span class="s2">;</span>
+        <span class="s1">String Eligibility</span><span class="s2">;</span>
+        <span class="s0">int </span><span class="s1">amount</span><span class="s2">;</span>
+        <span class="s0">int </span><span class="s1">validity</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+<span class="s0">public class </span><span class="s1">Employee </span><span class="s2">{</span>
+    <span class="s0">public static void </span><span class="s1">main</span><span class="s2">(</span><span class="s1">String</span><span class="s2">[] </span><span class="s1">args</span><span class="s2">) {</span>
+        <span class="s1">EmpDetails obj1</span><span class="s2">=</span><span class="s0">new </span><span class="s1">EmpDetails</span><span class="s2">();</span>
+        <span class="s1">obj1</span><span class="s2">.</span><span class="s1">ename</span><span class="s2">=</span><span class="s3">&quot;Harini&quot;</span><span class="s2">;</span>
+        <span class="s1">obj1</span><span class="s2">.</span><span class="s1">age</span><span class="s2">=</span><span class="s4">25</span><span class="s2">;</span>
+        <span class="s1">obj1</span><span class="s2">.</span><span class="s1">Email_Id</span><span class="s2">=</span><span class="s3">&quot;harini123@gmail.com&quot;</span><span class="s2">;</span>
+        <span class="s1">obj1</span><span class="s2">.</span><span class="s1">Address</span><span class="s2">=</span><span class="s3">&quot;Vijanagar,4th Block,Bangalore-54128&quot;</span><span class="s2">;</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Employee Name:&quot;</span><span class="s2">+</span><span class="s1">obj1</span><span class="s2">.</span><span class="s1">ename</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Age:&quot;</span><span class="s2">+</span><span class="s1">obj1</span><span class="s2">.</span><span class="s1">age</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Email_ID:&quot;</span><span class="s2">+</span><span class="s1">obj1</span><span class="s2">.</span><span class="s1">Email_Id</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Address:&quot;</span><span class="s2">+</span><span class="s1">obj1</span><span class="s2">.</span><span class="s1">Address</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;-----------------------------------------&quot;</span><span class="s2">);</span>
+
+        <span class="s1">Department dept1</span><span class="s2">=</span><span class="s0">new </span><span class="s1">Department</span><span class="s2">();</span>
+        <span class="s1">dept1</span><span class="s2">.</span><span class="s1">id</span><span class="s2">=</span><span class="s4">10</span><span class="s2">;</span>
+        <span class="s1">dept1</span><span class="s2">.</span><span class="s1">deptname</span><span class="s2">=</span><span class="s3">&quot;Senior Engineer&quot;</span><span class="s2">;</span>
+        <span class="s1">dept1</span><span class="s2">.</span><span class="s1">salary</span><span class="s2">=</span><span class="s4">25000</span><span class="s2">;</span>
+        <span class="s1">dept1</span><span class="s2">.</span><span class="s1">Manager</span><span class="s2">=</span><span class="s3">&quot;Krishna&quot;</span><span class="s2">;</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Department Id:&quot;</span><span class="s2">+</span><span class="s1">dept1</span><span class="s2">.</span><span class="s1">id</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Department Name:&quot;</span><span class="s2">+</span><span class="s1">dept1</span><span class="s2">.</span><span class="s1">deptname</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Salary of Employee:&quot;</span><span class="s2">+</span><span class="s1">dept1</span><span class="s2">.</span><span class="s1">salary</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Reporting Manager:&quot;</span><span class="s2">+</span><span class="s1">dept1</span><span class="s2">.</span><span class="s1">Manager</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;-----------------------------------------&quot;</span><span class="s2">);</span>
+
+        <span class="s1">Insurance ins1</span><span class="s2">=</span><span class="s0">new </span><span class="s1">Insurance</span><span class="s2">();</span>
+        <span class="s1">ins1</span><span class="s2">.</span><span class="s1">type</span><span class="s2">=</span><span class="s3">&quot;Health Insurance&quot;</span><span class="s2">;</span>
+        <span class="s1">ins1</span><span class="s2">.</span><span class="s1">Eligibility</span><span class="s2">=</span><span class="s3">&quot;Having Salary above 25,000&quot;</span><span class="s2">;</span>
+        <span class="s1">ins1</span><span class="s2">.</span><span class="s1">amount</span><span class="s2">= </span><span class="s4">100000</span><span class="s2">;</span>
+        <span class="s1">ins1</span><span class="s2">.</span><span class="s1">validity</span><span class="s2">= </span><span class="s4">2</span><span class="s2">;</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Insurance Type:&quot;</span><span class="s2">+</span><span class="s1">ins1</span><span class="s2">.</span><span class="s1">type</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Eligible Employees:&quot;</span><span class="s2">+</span><span class="s1">ins1</span><span class="s2">.</span><span class="s1">Eligibility</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Insurance Amount:&quot;</span><span class="s2">+</span><span class="s1">ins1</span><span class="s2">.</span><span class="s1">amount</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Insurance is valid till:&quot;</span><span class="s2">+</span><span class="s1">ins1</span><span class="s2">.</span><span class="s1">validity</span><span class="s2">+</span><span class="s3">&quot; Years&quot;</span><span class="s2">);</span>
+
+
+    <span class="s2">}</span>
+<span class="s2">}</span>
+</pre>
+</body>
+</html>

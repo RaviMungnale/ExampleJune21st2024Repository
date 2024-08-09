@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>Vehicle.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+.s4 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Vehicle.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">com</span><span class="s2">.</span><span class="s1">sgtest</span><span class="s2">.</span><span class="s1">Assignment</span><span class="s2">;</span>
+<span class="s0">class </span><span class="s1">Wheeler2</span>
+<span class="s2">{</span>
+    <span class="s1">String model</span><span class="s2">;</span>
+    <span class="s1">String owner</span><span class="s2">;</span>
+    <span class="s0">int </span><span class="s1">year</span><span class="s2">;</span>
+    <span class="s1">String Reg_no</span><span class="s2">;</span>
+    <span class="s0">int </span><span class="s1">price</span><span class="s2">;</span>
+<span class="s2">}</span>
+<span class="s0">class </span><span class="s1">Wheeler4</span>
+<span class="s2">{</span>
+    <span class="s1">String model</span><span class="s2">;</span>
+    <span class="s1">String owner</span><span class="s2">;</span>
+    <span class="s0">int </span><span class="s1">year</span><span class="s2">;</span>
+    <span class="s1">String Reg_no</span><span class="s2">;</span>
+    <span class="s0">int </span><span class="s1">price</span><span class="s2">;</span>
+
+<span class="s2">}</span>
+<span class="s0">class </span><span class="s1">HeavyVehicles </span><span class="s2">{</span>
+    <span class="s1">String model</span><span class="s2">;</span>
+    <span class="s1">String owner</span><span class="s2">;</span>
+    <span class="s0">int </span><span class="s1">year</span><span class="s2">;</span>
+    <span class="s1">String Reg_no</span><span class="s2">;</span>
+    <span class="s0">int </span><span class="s1">price</span><span class="s2">;</span>
+<span class="s2">}</span>
+<span class="s0">public class </span><span class="s1">Vehicle </span><span class="s2">{</span>
+    <span class="s0">public static void </span><span class="s1">main</span><span class="s2">(</span><span class="s1">String</span><span class="s2">[] </span><span class="s1">args</span><span class="s2">) {</span>
+        <span class="s1">Wheeler2 obj2</span><span class="s2">=</span><span class="s0">new </span><span class="s1">Wheeler2</span><span class="s2">();</span>
+        <span class="s1">obj2</span><span class="s2">.</span><span class="s1">model</span><span class="s2">=</span><span class="s3">&quot;Honda&quot;</span><span class="s2">;</span>
+        <span class="s1">obj2</span><span class="s2">.</span><span class="s1">owner</span><span class="s2">=</span><span class="s3">&quot;Suresh&quot;</span><span class="s2">;</span>
+        <span class="s1">obj2</span><span class="s2">.</span><span class="s1">year</span><span class="s2">= </span><span class="s4">2020</span><span class="s2">;</span>
+        <span class="s1">obj2</span><span class="s2">.</span><span class="s1">Reg_no</span><span class="s2">=</span><span class="s3">&quot;KA 36 RA 1234&quot;</span><span class="s2">;</span>
+        <span class="s1">obj2</span><span class="s2">.</span><span class="s1">price</span><span class="s2">= </span><span class="s4">80000</span><span class="s2">;</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Details of Two Wheeler&quot;</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Name of the Model:&quot;</span><span class="s2">+</span><span class="s1">obj2</span><span class="s2">.</span><span class="s1">model</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Owner:&quot;</span><span class="s2">+</span><span class="s1">obj2</span><span class="s2">.</span><span class="s1">owner</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Year:&quot;</span><span class="s2">+</span><span class="s1">obj2</span><span class="s2">.</span><span class="s1">year</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Registration Number:&quot;</span><span class="s2">+</span><span class="s1">obj2</span><span class="s2">.</span><span class="s1">Reg_no</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Price of the Model:&quot;</span><span class="s2">+</span><span class="s1">obj2</span><span class="s2">.</span><span class="s1">price</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;-------------------------------------------&quot;</span><span class="s2">);</span>
+
+        <span class="s1">Wheeler4 obj4</span><span class="s2">=</span><span class="s0">new </span><span class="s1">Wheeler4</span><span class="s2">();</span>
+        <span class="s1">obj4</span><span class="s2">.</span><span class="s1">model</span><span class="s2">=</span><span class="s3">&quot;Toyota Innova&quot;</span><span class="s2">;</span>
+        <span class="s1">obj4</span><span class="s2">.</span><span class="s1">owner</span><span class="s2">=</span><span class="s3">&quot;Mahendar&quot;</span><span class="s2">;</span>
+        <span class="s1">obj4</span><span class="s2">.</span><span class="s1">year</span><span class="s2">= </span><span class="s4">2016</span><span class="s2">;</span>
+        <span class="s1">obj4</span><span class="s2">.</span><span class="s1">Reg_no</span><span class="s2">=</span><span class="s3">&quot;KA 41 AD 9999&quot;</span><span class="s2">;</span>
+        <span class="s1">obj4</span><span class="s2">.</span><span class="s1">price</span><span class="s2">= </span><span class="s4">5470000</span><span class="s2">;</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Details of Four Wheeler&quot;</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Name of the Model:&quot;</span><span class="s2">+</span><span class="s1">obj4</span><span class="s2">.</span><span class="s1">model</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Owner:&quot;</span><span class="s2">+</span><span class="s1">obj4</span><span class="s2">.</span><span class="s1">owner</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Year:&quot;</span><span class="s2">+</span><span class="s1">obj4</span><span class="s2">.</span><span class="s1">year</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Registration Number:&quot;</span><span class="s2">+</span><span class="s1">obj4</span><span class="s2">.</span><span class="s1">Reg_no</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Price of the Model:&quot;</span><span class="s2">+</span><span class="s1">obj4</span><span class="s2">.</span><span class="s1">price</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;-------------------------------------------&quot;</span><span class="s2">);</span>
+
+        <span class="s1">HeavyVehicles obj6</span><span class="s2">=</span><span class="s0">new </span><span class="s1">HeavyVehicles</span><span class="s2">();</span>
+        <span class="s1">obj6</span><span class="s2">.</span><span class="s1">model</span><span class="s2">=</span><span class="s3">&quot;TATA Motors&quot;</span><span class="s2">;</span>
+        <span class="s1">obj6</span><span class="s2">.</span><span class="s1">owner</span><span class="s2">=</span><span class="s3">&quot;Amaresh&quot;</span><span class="s2">;</span>
+        <span class="s1">obj6</span><span class="s2">.</span><span class="s1">year</span><span class="s2">= </span><span class="s4">2023</span><span class="s2">;</span>
+        <span class="s1">obj6</span><span class="s2">.</span><span class="s1">Reg_no</span><span class="s2">=</span><span class="s3">&quot;PY 28 MA 8181&quot;</span><span class="s2">;</span>
+        <span class="s1">obj6</span><span class="s2">.</span><span class="s1">price</span><span class="s2">= </span><span class="s4">6500000</span><span class="s2">;</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Details of Heavy Vehicle&quot;</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Name of the Model:&quot;</span><span class="s2">+</span><span class="s1">obj6</span><span class="s2">.</span><span class="s1">model</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Owner:&quot;</span><span class="s2">+</span><span class="s1">obj6</span><span class="s2">.</span><span class="s1">owner</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Year:&quot;</span><span class="s2">+</span><span class="s1">obj6</span><span class="s2">.</span><span class="s1">year</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Registration Number:&quot;</span><span class="s2">+</span><span class="s1">obj6</span><span class="s2">.</span><span class="s1">Reg_no</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Price of the Model:&quot;</span><span class="s2">+</span><span class="s1">obj6</span><span class="s2">.</span><span class="s1">price</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;-------------------------------------------&quot;</span><span class="s2">);</span>
+    <span class="s2">}</span>
+<span class="s2">}</span>
+</pre>
+</body>
+</html>

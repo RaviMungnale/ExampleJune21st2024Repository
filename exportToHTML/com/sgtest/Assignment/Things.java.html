@@ -1,0 +1,80 @@
+<html>
+<head>
+<title>Things.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Things.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">com</span><span class="s2">.</span><span class="s1">sgtest</span><span class="s2">.</span><span class="s1">Assignment</span><span class="s2">;</span>
+
+<span class="s0">import </span><span class="s1">javax</span><span class="s2">.</span><span class="s1">swing</span><span class="s2">.*;</span>
+
+<span class="s0">class </span><span class="s1">Fruits</span>
+<span class="s2">{</span>
+    <span class="s1">String fruitname</span><span class="s2">;</span>
+    <span class="s1">String colour</span><span class="s2">;</span>
+    <span class="s1">String Vitamin</span><span class="s2">;</span>
+    <span class="s1">String Produced_in</span><span class="s2">;</span>
+<span class="s2">}</span>
+<span class="s0">class </span><span class="s1">Flowers</span>
+<span class="s2">{</span>
+    <span class="s1">String flowername</span><span class="s2">;</span>
+    <span class="s1">String colour</span><span class="s2">;</span>
+    <span class="s1">String Vitamin</span><span class="s2">;</span>
+    <span class="s1">String usedfor</span><span class="s2">;</span>
+<span class="s2">}</span>
+<span class="s0">class </span><span class="s1">Vegetable</span>
+<span class="s2">{</span>
+    <span class="s1">String vegname</span><span class="s2">;</span>
+    <span class="s1">String colour</span><span class="s2">;</span>
+    <span class="s1">String Vitamin</span><span class="s2">;</span>
+<span class="s2">}</span>
+<span class="s0">public class </span><span class="s1">Things </span><span class="s2">{</span>
+    <span class="s0">public static void </span><span class="s1">main</span><span class="s2">(</span><span class="s1">String</span><span class="s2">[] </span><span class="s1">args</span><span class="s2">) {</span>
+        <span class="s1">Fruits f1</span><span class="s2">=</span><span class="s0">new </span><span class="s1">Fruits</span><span class="s2">();</span>
+        <span class="s1">f1</span><span class="s2">.</span><span class="s1">fruitname</span><span class="s2">=</span><span class="s3">&quot;Apple&quot;</span><span class="s2">;</span>
+        <span class="s1">f1</span><span class="s2">.</span><span class="s1">colour</span><span class="s2">=</span><span class="s3">&quot;Red&quot;</span><span class="s2">;</span>
+        <span class="s1">f1</span><span class="s2">.</span><span class="s1">Vitamin</span><span class="s2">=</span><span class="s3">&quot;Vit C&quot;</span><span class="s2">;</span>
+        <span class="s1">f1</span><span class="s2">.</span><span class="s1">Produced_in</span><span class="s2">=</span><span class="s3">&quot;Kashmir&quot;</span><span class="s2">;</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Details of the Fruit&quot;</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Name:&quot;</span><span class="s2">+</span><span class="s1">f1</span><span class="s2">.</span><span class="s1">fruitname</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Colour:&quot;</span><span class="s2">+</span><span class="s1">f1</span><span class="s2">.</span><span class="s1">colour</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Vitamin:&quot;</span><span class="s2">+</span><span class="s1">f1</span><span class="s2">.</span><span class="s1">Vitamin</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Grown in:&quot;</span><span class="s2">+</span><span class="s1">f1</span><span class="s2">.</span><span class="s1">Produced_in</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;---------------------------------------&quot;</span><span class="s2">);</span>
+
+        <span class="s1">Flowers f2</span><span class="s2">=</span><span class="s0">new </span><span class="s1">Flowers</span><span class="s2">();</span>
+        <span class="s1">f2</span><span class="s2">.</span><span class="s1">flowername</span><span class="s2">=</span><span class="s3">&quot;Sunflower&quot;</span><span class="s2">;</span>
+        <span class="s1">f2</span><span class="s2">.</span><span class="s1">colour</span><span class="s2">=</span><span class="s3">&quot;Yellow&quot;</span><span class="s2">;</span>
+        <span class="s1">f2</span><span class="s2">.</span><span class="s1">Vitamin</span><span class="s2">=</span><span class="s3">&quot;Vit B,C,K&quot;</span><span class="s2">;</span>
+        <span class="s1">f2</span><span class="s2">.</span><span class="s1">usedfor</span><span class="s2">=</span><span class="s3">&quot;Extracting oil&quot;</span><span class="s2">;</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Details of the FLowers&quot;</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Name:&quot;</span><span class="s2">+</span><span class="s1">f2</span><span class="s2">.</span><span class="s1">flowername</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Colour:&quot;</span><span class="s2">+</span><span class="s1">f2</span><span class="s2">.</span><span class="s1">colour</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Vitamin:&quot;</span><span class="s2">+</span><span class="s1">f2</span><span class="s2">.</span><span class="s1">Vitamin</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Useful For:&quot;</span><span class="s2">+</span><span class="s1">f2</span><span class="s2">.</span><span class="s1">usedfor</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;---------------------------------------&quot;</span><span class="s2">);</span>
+
+        <span class="s1">Vegetable V1</span><span class="s2">=</span><span class="s0">new </span><span class="s1">Vegetable</span><span class="s2">();</span>
+        <span class="s1">V1</span><span class="s2">.</span><span class="s1">vegname</span><span class="s2">=</span><span class="s3">&quot;Potato&quot;</span><span class="s2">;</span>
+        <span class="s1">V1</span><span class="s2">.</span><span class="s1">colour</span><span class="s2">=</span><span class="s3">&quot;Russet&quot;</span><span class="s2">;</span>
+        <span class="s1">V1</span><span class="s2">.</span><span class="s1">Vitamin</span><span class="s2">=</span><span class="s3">&quot;Vit A&quot;</span><span class="s2">;</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Details of the Vegetable&quot;</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Name:&quot;</span><span class="s2">+ </span><span class="s1">V1</span><span class="s2">.</span><span class="s1">vegname</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Colour:&quot;</span><span class="s2">+ </span><span class="s1">V1</span><span class="s2">.</span><span class="s1">colour</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Vitamin:&quot;</span><span class="s2">+ </span><span class="s1">V1</span><span class="s2">.</span><span class="s1">Vitamin</span><span class="s2">);</span>
+    <span class="s2">}</span>
+<span class="s2">}</span>
+</pre>
+</body>
+</html>
